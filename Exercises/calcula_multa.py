@@ -7,7 +7,7 @@ um programa que leia a variável peso (peso de peixes) e calcule o excesso.
 
  Gravar na variável excesso a quantidade de quilos além do limite e na variável
  multa o valor da multa que João deverá pagar. Imprima os dados do programa com
- as mensagens adequadas.
+ as mensagens adequadas..
 """
 
 pesoDepeixes = int(input('Cuantos Kilos Pescaste Hoy?\n\r'))
