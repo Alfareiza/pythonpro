@@ -16,13 +16,18 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64d9d505-8cd6-40ce-8195-514488177a20" name="Default Changelist" comment=" __init__.py">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="64d9d505-8cd6-40ce-8195-514488177a20" name="Default Changelist" comment="Calculate a salary given an information">
+      <change beforePath="$PROJECT_DIR$/.idea/pythonpro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonpro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +52,128 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alfonso AG\PycharmProjects\pythonpro\Examples" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.contar_caracteres_list">
+    <configuration name="calcula_salario_a_partir_de_hora" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonpro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/calcula_salario_a_partir_de_hora.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="contagem_de_caracteres_lista" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonpro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/contagem_de_caracteres_lista.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="contar_caracteres_dict_v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonpro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/contar_caracteres_dict_v1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="contar_caracteres_dict_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonpro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/contar_caracteres_dict_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="contar_caracteres_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonpro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/contar_caracteres_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.contar_caracteres_list" />
+        <item itemvalue="Python.contar_caracteres_dict_v2" />
+        <item itemvalue="Python.contar_caracteres_dict_v1" />
+        <item itemvalue="Python.contagem_de_caracteres_lista" />
+        <item itemvalue="Python.calcula_salario_a_partir_de_hora" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -99,7 +221,91 @@
       <option name="project" value="LOCAL" />
       <updated>1589305728454</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="General information of this repository">
+      <created>1589306142390</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589306142390</updated>
+    </task>
+    <task id="LOCAL-00007" summary="General information of this repository">
+      <created>1589306392212</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589306392212</updated>
+    </task>
+    <task id="LOCAL-00008" summary="General information of this repository">
+      <created>1589306414314</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589306414314</updated>
+    </task>
+    <task id="LOCAL-00009" summary="General information of this repository">
+      <created>1589317068052</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589317068052</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Use of datetime library">
+      <created>1589317093215</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589317093215</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Count quantity of characters in a string, returning a list.">
+      <created>1589317135109</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589317135109</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Count quantity of characters in a string, returning a dict.">
+      <created>1589317146012</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589317146012</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Count quantity of characters in a string, returning a dict (lesslines).">
+      <created>1589317159149</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589317159149</updated>
+    </task>
+    <task id="LOCAL-00014" summary="My Firts touch with python">
+      <created>1589317189014</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589317189014</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Use of datetime library">
+      <created>1589318018601</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589318018601</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Calculate a penalty fee given some conditions">
+      <created>1589318319977</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589318319977</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Calculate a salary given an information">
+      <created>1589318498840</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589318498840</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,7 +313,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -118,12 +336,49 @@
     <MESSAGE value="General Information about this repository" />
     <MESSAGE value="Learning about the using of all and any in python" />
     <MESSAGE value=" __init__.py" />
-    <option name="LAST_COMMIT_MESSAGE" value=" __init__.py" />
+    <MESSAGE value="General information of this repository" />
+    <MESSAGE value="Count quantity of characters in a string, returning a list." />
+    <MESSAGE value="Count quantity of characters in a string, returning a dict." />
+    <MESSAGE value="Count quantity of characters in a string, returning a dict (less lines)." />
+    <MESSAGE value="My Firts touch with python" />
+    <MESSAGE value="Use of datetime library" />
+    <MESSAGE value="Calculate salary from hours and value of the hour worked" />
+    <MESSAGE value="Calculate a penalty fee given some conditions" />
+    <MESSAGE value="Calculate a salary given an information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculate a salary given an information" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1727" y="183" key="Vcs.Push.Dialog.v2" timestamp="1589305649966">
+    <state x="1809" y="350" key="GitRewordDialog" timestamp="1589317657113">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state x="1727" y="183" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589305649966" />
+    <state x="1809" y="350" key="GitRewordDialog/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589317657113" />
+    <state width="1517" height="236" key="GridCell.Tab.0.bottom" timestamp="1589317608537">
+      <screen x="1366" y="0" width="1538" height="900" />
+    </state>
+    <state width="1517" height="236" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589317608537" />
+    <state width="1517" height="236" key="GridCell.Tab.0.center" timestamp="1589317608536">
+      <screen x="1366" y="0" width="1538" height="900" />
+    </state>
+    <state width="1517" height="236" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589317608536" />
+    <state width="1517" height="236" key="GridCell.Tab.0.left" timestamp="1589317608536">
+      <screen x="1366" y="0" width="1538" height="900" />
+    </state>
+    <state width="1517" height="236" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589317608536" />
+    <state width="1517" height="236" key="GridCell.Tab.0.right" timestamp="1589317608537">
+      <screen x="1366" y="0" width="1538" height="900" />
+    </state>
+    <state width="1517" height="236" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589317608537" />
+    <state x="1909" y="170" key="RollbackChangesDialog" timestamp="1589317948133">
+      <screen x="1366" y="0" width="1538" height="900" />
+    </state>
+    <state x="1909" y="170" key="RollbackChangesDialog/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589317948133" />
+    <state x="1636" y="95" key="SettingsEditor" timestamp="1589316309472">
+      <screen x="1366" y="0" width="1538" height="900" />
+    </state>
+    <state x="1636" y="95" key="SettingsEditor/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589316309472" />
+    <state x="1727" y="183" key="Vcs.Push.Dialog.v2" timestamp="1589318502220">
+      <screen x="1366" y="0" width="1538" height="900" />
+    </state>
+    <state x="1727" y="183" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589318502220" />
   </component>
 </project>
