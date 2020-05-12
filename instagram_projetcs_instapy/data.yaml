@@ -1,0 +1,9 @@
+username: escapodelamuerte              # (instagram user)
+password: 21822138          # (instagram password)
+friends_interaction: True   # (if True will like friendlist posts,False will avoid create friends session)
+do_comments: False           # (if True will comment on user interaction)
+do_follow: True             # (if True will follow on user interaction)
+user_interact: False         # (if True will interact with user posts)
+do_unfollow: True           # (if True will execution unfollow)
+friendlist : ['andreavaldirisos','ojo_vallenato_oficial','eyevallenat0','eye.vallenat0' ]
+hashtags : ['barranquilla','cartagena','santamarta','ojovallenato']
