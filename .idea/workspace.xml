@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64d9d505-8cd6-40ce-8195-514488177a20" name="Default Changelist" comment=".">
-      <change beforePath="$PROJECT_DIR$/Exercises/defanging_an_ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/defanging_an_ip.py" afterDir="false" />
-    </list>
+    <list default="true" id="64d9d505-8cd6-40ce-8195-514488177a20" name="Default Changelist" comment="workspace" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,28 +56,7 @@
       <recent name="C:\Users\Alfonso AG\PycharmProjects\pythonpro\Examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hipermercado_promocoes">
-    <configuration name="contar_caracteres_dict_v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonpro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/contar_caracteres_dict_v1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.jewels_and_stones">
     <configuration name="contar_caracteres_dict_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,13 +141,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="jewels_and_stones" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonpro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/jewels_and_stones.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jewels_and_stones" />
         <item itemvalue="Python.hipermercado_promocoes" />
         <item itemvalue="Python.divisible_by_7_multiple_of_5" />
         <item itemvalue="Python.contar_caracteres_list" />
         <item itemvalue="Python.contar_caracteres_dict_v2" />
-        <item itemvalue="Python.contar_caracteres_dict_v1" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +316,35 @@
       <option name="project" value="LOCAL" />
       <updated>1589318754291</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Given a ip address, this program replace the points">
+      <created>1589318978238</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1589318978238</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Which numbers are divisible by 7 and multiples of 5.">
+      <created>1589319147386</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1589319147386</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Create invoice given some inputs">
+      <created>1589319248424</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1589319248424</updated>
+    </task>
+    <task id="LOCAL-00023" summary="workspace">
+      <created>1589319379144</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1589319379144</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,29 +386,33 @@
     <MESSAGE value="Calculate a salary given an information" />
     <MESSAGE value="Learning to recognize the library datetime" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Given a ip address, this program replace the points" />
+    <MESSAGE value="Which numbers are divisible by 7 and multiples of 5." />
+    <MESSAGE value="Create invoice given some inputs" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="350" key="GitRewordDialog" timestamp="1589317657113">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
     <state x="1809" y="350" key="GitRewordDialog/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589317657113" />
-    <state width="1517" height="236" key="GridCell.Tab.0.bottom" timestamp="1589318582642">
+    <state width="1517" height="236" key="GridCell.Tab.0.bottom" timestamp="1589319201138">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589318582642" />
-    <state width="1517" height="236" key="GridCell.Tab.0.center" timestamp="1589318582642">
+    <state width="1517" height="236" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589319201138" />
+    <state width="1517" height="236" key="GridCell.Tab.0.center" timestamp="1589319201137">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589318582642" />
-    <state width="1517" height="236" key="GridCell.Tab.0.left" timestamp="1589318582641">
+    <state width="1517" height="236" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589319201137" />
+    <state width="1517" height="236" key="GridCell.Tab.0.left" timestamp="1589319201137">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589318582641" />
-    <state width="1517" height="236" key="GridCell.Tab.0.right" timestamp="1589318582642">
+    <state width="1517" height="236" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589319201137" />
+    <state width="1517" height="236" key="GridCell.Tab.0.right" timestamp="1589319201137">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589318582642" />
+    <state width="1517" height="236" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589319201137" />
     <state x="1909" y="170" key="RollbackChangesDialog" timestamp="1589317948133">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>

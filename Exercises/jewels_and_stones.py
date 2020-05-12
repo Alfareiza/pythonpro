@@ -1,4 +1,6 @@
-#Cuantas ocurrencias del string J hay en el string S
+"""
+How many occurrences of string J are there in string S
+"""
 def numJewelsInStones(J, S):
     """
     :type J: str
