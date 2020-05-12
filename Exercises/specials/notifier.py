@@ -1,3 +1,6 @@
+"""
+Learning to use this lib what sends windows notification
+"""
 from win10toast import ToastNotifier
 
 toast = ToastNotifier()
