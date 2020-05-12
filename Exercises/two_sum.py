@@ -1,5 +1,5 @@
 """
-Given a list and a target, this program calculate all the combination possible of summatory
+Given a list and a target, this program calculate all the combinations possible of summatory
 between two numbers up to the target.
 Ex:
 Input :  6
