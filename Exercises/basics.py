@@ -3,8 +3,7 @@ def inverseName():
     This program receive a name and lastname and return them upside down
     :return:
     """
-    print('Digite su nombre y Apellido')
-    name = input()
+    name = input('Digite su nombre y Apellido : ')
     nameList = name.split()
     nameList[0] = nameList[0][::-1]
     nameList[1] = nameList[1][::-1]
@@ -19,7 +18,7 @@ def generateTupleandList():
     numbers = '1,2,3,4,5'
     numbersList = numbers.split(',')
     numbersTuple = tuple(numbersList)
-    print('List = ',numbersList,'\n','Tuple = ',numbersTuple)
+    print('This is a List = ',numbersList,'\n','This is Tuple = ',numbersTuple)
 
 def  extensionoffile():
     """
@@ -28,7 +27,7 @@ def  extensionoffile():
     """
     filename = 'abc.java'
     filenameTemp = filename.split('.')
-    print('Su archivo es extensión',repr(filenameTemp[-1]))
+    print('Your file extension is : ',repr(filenameTemp[-1]))
 
 def firstandlastelementList():
     """
@@ -38,4 +37,8 @@ def firstandlastelementList():
     color_list = ["Red", "Green", "White", "Black"]
     print('El Primer color es el :',repr(color_list[0]),'\nEl Último color es el :',repr(color_list[-1]))
 
+inverseName()
+generateTupleandList()
+extensionoffile()
 firstandlastelementList()
+
