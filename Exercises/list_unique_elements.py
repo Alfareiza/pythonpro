@@ -1,3 +1,6 @@
+"""
+Given a list with repeated numbers, it returns to list without repeated numbers
+"""
 def uniqueElements(numbers):
     numbers.sort()
     numbersUnique = []
