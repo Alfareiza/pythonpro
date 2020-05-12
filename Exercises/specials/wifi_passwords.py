@@ -1,9 +1,9 @@
-import subprocess
-from win10toast import ToastNotifier
-
 """
 This program shows a windows notification with information of your saved wifi networks
 """
+import subprocess
+from win10toast import ToastNotifier
+
 
 a = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles']).decode('utf-8','backslashreplace').split('\n')
 a = [i.split(":")[1][1:-1] for i in a if "Perfil de todos los usuarios" in i]

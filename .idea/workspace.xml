@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64d9d505-8cd6-40ce-8195-514488177a20" name="Default Changelist" comment="Verify if a number is prime or not">
+    <list default="true" id="64d9d505-8cd6-40ce-8195-514488177a20" name="Default Changelist" comment="Verify if a letter is consonant or vowel.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +41,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bocTUMOImwUu0r3dwm7ePNEYKK" />
@@ -61,28 +66,7 @@
       <recent name="C:\Users\Alfonso AG\PycharmProjects\pythonpro\Examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.number_is_prime">
-    <configuration name="jewels_and_stones" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonpro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/jewels_and_stones.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.steps_to_reduce_a_number_to_zero">
     <configuration name="list_unique_elements" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,6 +130,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="steps_to_reduce_a_number_to_zero" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonpro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/steps_to_reduce_a_number_to_zero.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="time_of_download" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.number_is_prime" />
         <item itemvalue="Python.time_of_download" />
+        <item itemvalue="Python.steps_to_reduce_a_number_to_zero" />
+        <item itemvalue="Python.number_is_prime" />
         <item itemvalue="Python.max_of_three_numbers" />
         <item itemvalue="Python.list_unique_elements" />
-        <item itemvalue="Python.jewels_and_stones" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +417,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589322091713</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Given a number, it is reduced to zero by certain logic">
+      <created>1589325104714</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1589325104714</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Verify if a letter is consonant or vowel.">
+      <created>1589325661261</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1589325661261</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,27 +439,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" __init__.py" />
-    <MESSAGE value="General information of this repository" />
     <MESSAGE value="Count quantity of characters in a string, returning a list." />
     <MESSAGE value="Count quantity of characters in a string, returning a dict." />
     <MESSAGE value="Count quantity of characters in a string, returning a dict (less lines)." />
@@ -464,29 +469,31 @@
     <MESSAGE value="Combinations possible of summatory between two numbers" />
     <MESSAGE value="Given a letter determines if it is consonant or vowel." />
     <MESSAGE value="Verify if a number is prime or not" />
-    <option name="LAST_COMMIT_MESSAGE" value="Verify if a number is prime or not" />
+    <MESSAGE value="Given a number, it is reduced to zero by certain logic" />
+    <MESSAGE value="Verify if a letter is consonant or vowel." />
+    <option name="LAST_COMMIT_MESSAGE" value="Verify if a letter is consonant or vowel." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="350" key="GitRewordDialog" timestamp="1589317657113">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
     <state x="1809" y="350" key="GitRewordDialog/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589317657113" />
-    <state width="1517" height="236" key="GridCell.Tab.0.bottom" timestamp="1589322162602">
+    <state width="1517" height="236" key="GridCell.Tab.0.bottom" timestamp="1589325940028">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589322162602" />
-    <state width="1517" height="236" key="GridCell.Tab.0.center" timestamp="1589322162602">
+    <state width="1517" height="236" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589325940028" />
+    <state width="1517" height="236" key="GridCell.Tab.0.center" timestamp="1589325940028">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589322162602" />
-    <state width="1517" height="236" key="GridCell.Tab.0.left" timestamp="1589322162602">
+    <state width="1517" height="236" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589325940028" />
+    <state width="1517" height="236" key="GridCell.Tab.0.left" timestamp="1589325940028">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589322162602" />
-    <state width="1517" height="236" key="GridCell.Tab.0.right" timestamp="1589322162602">
+    <state width="1517" height="236" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589325940028" />
+    <state width="1517" height="236" key="GridCell.Tab.0.right" timestamp="1589325940028">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589322162602" />
+    <state width="1517" height="236" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589325940028" />
     <state x="1909" y="170" key="RollbackChangesDialog" timestamp="1589317948133">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
@@ -495,10 +502,10 @@
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
     <state x="1636" y="95" key="SettingsEditor/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589316309472" />
-    <state x="1727" y="183" key="Vcs.Push.Dialog.v2" timestamp="1589323735306">
+    <state x="1727" y="183" key="Vcs.Push.Dialog.v2" timestamp="1589326368179">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state x="1727" y="183" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589323735306" />
+    <state x="1727" y="183" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589326368179" />
     <state x="1935" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1589322426493">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
