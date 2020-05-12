@@ -1,5 +1,5 @@
 """
-This program receive a letter and verify if it is consonant or vowel
+This program receive a letter and verify if it is consonant or vowel.
 """
 letra = input('Digite uma Letra -> ')
 def vocal_ou_consoante(letra):
