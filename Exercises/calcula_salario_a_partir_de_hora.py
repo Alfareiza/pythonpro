@@ -1,3 +1,7 @@
+"""
+This program calculate the salary of a person from the hours he worked on a month.
+After this is discounted some values.
+"""
 def calculateSalario(s,n):
     salarioBruto = float(s)*int(n)
     rendaDosalario = 0.11*salarioBruto
