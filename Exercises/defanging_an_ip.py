@@ -1,6 +1,10 @@
-# Example:
-# Input: address = "1.1.1.1"
-# Output: "1[.]1[.]1[.]1"
+"""
+Given a ip address, this program change it.
+Example:
+        Input: address = "1.1.1.1"
+        Output: "1[.]1[.]1[.]1"
+        """
+
 def defanging(ip):
     ip = ip.split('.')
     newIp = '[.]'.join(ip)
