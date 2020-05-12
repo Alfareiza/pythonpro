@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64d9d505-8cd6-40ce-8195-514488177a20" name="Default Changelist" comment="Given a letter determines if it is consonant or vowel.">
+    <list default="true" id="64d9d505-8cd6-40ce-8195-514488177a20" name="Default Changelist" comment="Verify if a number is prime or not">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -405,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589321085352</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Verify if a number is prime or not">
+      <created>1589322091713</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1589322091713</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Learning about the using of all and any in python" />
     <MESSAGE value=" __init__.py" />
     <MESSAGE value="General information of this repository" />
     <MESSAGE value="Count quantity of characters in a string, returning a list." />
@@ -457,29 +463,30 @@
     <MESSAGE value="Given a size of a file, return the download time according to internet speed" />
     <MESSAGE value="Combinations possible of summatory between two numbers" />
     <MESSAGE value="Given a letter determines if it is consonant or vowel." />
-    <option name="LAST_COMMIT_MESSAGE" value="Given a letter determines if it is consonant or vowel." />
+    <MESSAGE value="Verify if a number is prime or not" />
+    <option name="LAST_COMMIT_MESSAGE" value="Verify if a number is prime or not" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="350" key="GitRewordDialog" timestamp="1589317657113">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
     <state x="1809" y="350" key="GitRewordDialog/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589317657113" />
-    <state width="1517" height="236" key="GridCell.Tab.0.bottom" timestamp="1589322049761">
+    <state width="1517" height="236" key="GridCell.Tab.0.bottom" timestamp="1589322162602">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589322049761" />
-    <state width="1517" height="236" key="GridCell.Tab.0.center" timestamp="1589322049760">
+    <state width="1517" height="236" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589322162602" />
+    <state width="1517" height="236" key="GridCell.Tab.0.center" timestamp="1589322162602">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589322049760" />
-    <state width="1517" height="236" key="GridCell.Tab.0.left" timestamp="1589322049760">
+    <state width="1517" height="236" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589322162602" />
+    <state width="1517" height="236" key="GridCell.Tab.0.left" timestamp="1589322162602">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589322049760" />
-    <state width="1517" height="236" key="GridCell.Tab.0.right" timestamp="1589322049761">
+    <state width="1517" height="236" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589322162602" />
+    <state width="1517" height="236" key="GridCell.Tab.0.right" timestamp="1589322162602">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589322049761" />
+    <state width="1517" height="236" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589322162602" />
     <state x="1909" y="170" key="RollbackChangesDialog" timestamp="1589317948133">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
@@ -488,9 +495,13 @@
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
     <state x="1636" y="95" key="SettingsEditor/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589316309472" />
-    <state x="1727" y="183" key="Vcs.Push.Dialog.v2" timestamp="1589321091289">
+    <state x="1727" y="183" key="Vcs.Push.Dialog.v2" timestamp="1589323735306">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state x="1727" y="183" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589321091289" />
+    <state x="1727" y="183" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589323735306" />
+    <state x="1935" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1589322426493">
+      <screen x="1366" y="0" width="1538" height="900" />
+    </state>
+    <state x="1935" y="351" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589322426493" />
   </component>
 </project>
