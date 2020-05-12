@@ -25,8 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64d9d505-8cd6-40ce-8195-514488177a20" name="Default Changelist" comment="How many occurrences of string J are there in string S.">
-      <change beforePath="$PROJECT_DIR$/Exercises/list_unique_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/list_unique_elements.py" afterDir="false" />
+    <list default="true" id="64d9d505-8cd6-40ce-8195-514488177a20" name="Default Changelist" comment="This program receive many integers and adds them&#10;ta">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/time_of_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/time_of_download.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,33 +54,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alfonso AG\PycharmProjects\pythonpro\Examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.max_of_three_numbers">
-    <configuration name="divisible_by_7_multiple_of_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonpro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/divisible_by_7_multiple_of_5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.time_of_download">
     <configuration name="hipermercado_promocoes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,13 +147,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="time_of_download" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonpro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/time_of_download.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.time_of_download" />
         <item itemvalue="Python.max_of_three_numbers" />
         <item itemvalue="Python.list_unique_elements" />
         <item itemvalue="Python.jewels_and_stones" />
         <item itemvalue="Python.hipermercado_promocoes" />
-        <item itemvalue="Python.divisible_by_7_multiple_of_5" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +357,35 @@
       <option name="project" value="LOCAL" />
       <updated>1589319556733</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Given a list with repeated numbers, it returns to list without repeated numbers">
+      <created>1589319805931</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1589319805931</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Highest number of a tuple">
+      <created>1589319910148</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1589319910148</updated>
+    </task>
+    <task id="LOCAL-00027" summary="This file calls to sum_modulo.py sending some data">
+      <created>1589320309634</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1589320309634</updated>
+    </task>
+    <task id="LOCAL-00028" summary="This program receive many integers and adds them&#10;ta">
+      <created>1589320489912</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1589320489912</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,29 +432,33 @@
     <MESSAGE value="Create invoice given some inputs" />
     <MESSAGE value="workspace" />
     <MESSAGE value="How many occurrences of string J are there in string S." />
-    <option name="LAST_COMMIT_MESSAGE" value="How many occurrences of string J are there in string S." />
+    <MESSAGE value="Given a list with repeated numbers, it returns to list without repeated numbers" />
+    <MESSAGE value="Highest number of a tuple" />
+    <MESSAGE value="This file calls to sum_modulo.py sending some data" />
+    <MESSAGE value="This program receive many integers and adds them&#10;ta" />
+    <option name="LAST_COMMIT_MESSAGE" value="This program receive many integers and adds them&#10;ta" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="350" key="GitRewordDialog" timestamp="1589317657113">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
     <state x="1809" y="350" key="GitRewordDialog/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589317657113" />
-    <state width="1517" height="236" key="GridCell.Tab.0.bottom" timestamp="1589319719954">
+    <state width="1517" height="236" key="GridCell.Tab.0.bottom" timestamp="1589320738124">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589319719954" />
-    <state width="1517" height="236" key="GridCell.Tab.0.center" timestamp="1589319719954">
+    <state width="1517" height="236" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589320738124" />
+    <state width="1517" height="236" key="GridCell.Tab.0.center" timestamp="1589320738124">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589319719954" />
-    <state width="1517" height="236" key="GridCell.Tab.0.left" timestamp="1589319719954">
+    <state width="1517" height="236" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589320738124" />
+    <state width="1517" height="236" key="GridCell.Tab.0.left" timestamp="1589320738124">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589319719954" />
-    <state width="1517" height="236" key="GridCell.Tab.0.right" timestamp="1589319719954">
+    <state width="1517" height="236" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589320738124" />
+    <state width="1517" height="236" key="GridCell.Tab.0.right" timestamp="1589320738124">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589319719954" />
+    <state width="1517" height="236" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589320738124" />
     <state x="1909" y="170" key="RollbackChangesDialog" timestamp="1589317948133">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
@@ -431,9 +467,9 @@
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
     <state x="1636" y="95" key="SettingsEditor/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589316309472" />
-    <state x="1727" y="183" key="Vcs.Push.Dialog.v2" timestamp="1589318756219">
+    <state x="1727" y="183" key="Vcs.Push.Dialog.v2" timestamp="1589320053355">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state x="1727" y="183" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589318756219" />
+    <state x="1727" y="183" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589320053355" />
   </component>
 </project>
