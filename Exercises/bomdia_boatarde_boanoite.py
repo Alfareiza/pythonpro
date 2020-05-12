@@ -1,6 +1,6 @@
 """
 This program says "bom dia", or "boa tarde" or "boa noite" depending the hour of the moment
-when is executed
+when is executed.
 """
 from datetime import datetime
 
