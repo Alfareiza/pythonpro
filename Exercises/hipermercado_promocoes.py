@@ -66,12 +66,5 @@ def calcula_factura(listdeCarnes, kilosdeCarnes, pagamento):
     print(f'\t\t\tDCTO :  R$ {round(dcto, 2)}')
     print(f'  VALOR A PAGAR  :  R$ {round(total, 2)}\n\t\t GRACIAS POR SU COMPRA 👍')
 
-    # return f'\n ===== CUPOM FISCAL =====\nKILOS\tCARNE\tSUBTOTAL\n' \
-    #         f'{kilosdeCarnes[0]}\t\t{carnes_dict[listdeCarnes[0]]}\t\tR$ {conta[0]}\n' \
-    #         f'{kilosdeCarnes[1]}\t\t{carnes_dict[listdeCarnes[1]]}\t\tR$ {conta[1]}\n' \
-    #         f'\t\tSUBTOTAL :  R$ {subtotal}\n' \
-    #         f'\t\t\tDCTO :  R$ {round(dcto,2)}\n' \
-    #         f'  VALOR A PAGAR :   R$ {round(total,2)}\n\t\t GRACIAS POR SU COMPRA 👍'
-
 print(calcula_factura(listdeCarnes, kilosdeCarnes, pagamento))
 
