@@ -1,3 +1,6 @@
+"""
+Given a range of numbers, this program calculate which are divisible by 7 and multiples of 5
+"""
 def divisibleby7(n):
     result = []
     result5 = []
@@ -21,11 +24,11 @@ def divisibleby7(n):
 
 numbers = list(range(1500,2700))
 respuesta = divisibleby7(numbers)
-print('Los Divisibles por 7 son :\n ',respuesta['7'],'\n')
+print('Los Divisibles por 7 son :\n ',respuesta['7'])
 print('Los Multiplos de 5 son :\n ',respuesta['5'],'\n')
+
+
 print('Los números divisibles por 7 y multiplos de 5 son:')
-
-
 nl=[]
 for x in range(1500, 2701):
     if (x%7==0) and (x%5==0):
