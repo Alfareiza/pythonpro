@@ -1,3 +1,6 @@
+"""
+This program count the quantity of every characters in a string
+"""
 def contar_caracteres(s):
 
     caracteres_ordenados = sorted(s)
