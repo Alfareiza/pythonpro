@@ -1,4 +1,6 @@
-#Documentação de date
+"""
+Learning to recognize the library datetime
+"""
 from datetime import datetime
 import locale
 
