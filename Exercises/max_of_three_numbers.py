@@ -1,3 +1,6 @@
+"""
+Highest number of a tuple
+"""
 def max_of_3_numbers_op1(args):
     num_anterior = args[0]
     for valor in args:
