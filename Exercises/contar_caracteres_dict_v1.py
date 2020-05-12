@@ -1,7 +1,11 @@
+"""
+This program count the quantity of every characters in a string returning the result as a dict.
+ Ejemplo:
+ >>>contar_caracteres('Alfonso')
+ {'f':1,'l':1,'n':1,'o':2,'s':1}
+"""
 def contar_caracteres(s):
-  #  Ejemplo:
-  #  >>>contar_caracteres('Alfonso')
-  #  {'f':1,'l':1,'n':1,'o':2,'s':1} """
+
     caracteres_ordenados = sorted(s.lower()) #caracteres_ordenados = ['a','f','l','n','o','o','s']
     caracter_anterior = caracteres_ordenados[0] #caracter_anterior = ['a']
     contagem = 1
