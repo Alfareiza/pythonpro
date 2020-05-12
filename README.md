@@ -3,7 +3,7 @@ On this repository there are files associate to the course pythonpro where I'm l
 
 ##Folders
 ###Examples
-In this folder the files exemplify the use of some concepts in the python language :🚀:
+In this folder the files exemplify the use of some concepts in the python language 🚀
 
 ###Exercises
 In this folder are the files corresponding to the exercises I have done to learn how to program in python
