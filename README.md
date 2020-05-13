@@ -2,6 +2,7 @@
 On this repository there are files associate to the course pythonpro where I'm learning to code in Python.
 
 ## Folders
+All my files work with python 3.
 ### Examples
 In this folder the files exemplify the use of some concepts in the python language 🚀
 
