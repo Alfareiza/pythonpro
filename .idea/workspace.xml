@@ -25,9 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64d9d505-8cd6-40ce-8195-514488177a20" name="Default Changelist" comment="Validate some fields in a form.">
+    <list default="true" id="64d9d505-8cd6-40ce-8195-514488177a20" name="Default Changelist" comment="Validates a form with some information.">
+      <change afterPath="$PROJECT_DIR$/Exercises/estrutura_de_repeticao/validate_url.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/estrutura_de_repeticao/nota_valida.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/estrutura_de_repeticao/nota_valida.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,28 +67,7 @@
       <recent name="C:\Users\Alfonso AG\PycharmProjects\pythonpro\Examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.user_password">
-    <configuration name="max_of_three_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonpro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/max_of_three_numbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.validate_url">
     <configuration name="number_is_prime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,13 +152,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="validate_url" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonpro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises/estrutura_de_repeticao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/estrutura_de_repeticao/validate_url.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.validate_url" />
         <item itemvalue="Python.user_password" />
         <item itemvalue="Python.time_of_download" />
         <item itemvalue="Python.steps_to_reduce_a_number_to_zero" />
         <item itemvalue="Python.number_is_prime" />
-        <item itemvalue="Python.max_of_three_numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +467,56 @@
       <option name="project" value="LOCAL" />
       <updated>1589327875497</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Validates that a number is greater than zero and less than 10">
+      <created>1589328160420</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1589328160420</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Validates that a number is greater than zero and less than 10">
+      <created>1589328177366</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1589328177366</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Comparing the growth of two countries with inputs.">
+      <created>1589328220200</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1589328220200</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Validates that the password cannot contain the user information.">
+      <created>1589328284764</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1589328284764</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Comparing the growth of two countries.">
+      <created>1589328344996</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1589328344996</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Comparing the growth of two countries with inputs.">
+      <created>1589328364249</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1589328364249</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Validates a form with some information.">
+      <created>1589328436106</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1589328436106</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,10 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Learning to recognize the library datetime" />
-    <MESSAGE value="." />
-    <MESSAGE value="Given a ip address, this program replace the points" />
-    <MESSAGE value="Which numbers are divisible by 7 and multiples of 5." />
     <MESSAGE value="Create invoice given some inputs" />
     <MESSAGE value="workspace" />
     <MESSAGE value="How many occurrences of string J are there in string S." />
@@ -516,33 +561,53 @@
     <MESSAGE value="Learning to use this lib what sends windows notification" />
     <MESSAGE value="Keylogger take information and send it via e-mail" />
     <MESSAGE value="Validates that a number is between 0 and 10" />
-    <MESSAGE value="Comparing the growth of two countries." />
     <MESSAGE value="Comparing the growth of two countries considering inputs." />
     <MESSAGE value="Validate that the password cannot contain the user information." />
     <MESSAGE value="Validate some fields in a form." />
-    <option name="LAST_COMMIT_MESSAGE" value="Validate some fields in a form." />
+    <MESSAGE value="Validates that a number is greater than zero and less than 10" />
+    <MESSAGE value="Validates that the password cannot contain the user information." />
+    <MESSAGE value="Comparing the growth of two countries." />
+    <MESSAGE value="Comparing the growth of two countries with inputs." />
+    <MESSAGE value="Validates a form with some information." />
+    <option name="LAST_COMMIT_MESSAGE" value="Validates a form with some information." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="350" key="GitRewordDialog" timestamp="1589317657113">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
     <state x="1809" y="350" key="GitRewordDialog/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589317657113" />
-    <state width="1517" height="236" key="GridCell.Tab.0.bottom" timestamp="1589327971604">
+    <state width="1517" height="236" key="GridCell.Tab.0.bottom" timestamp="1589391980933">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589327971604" />
-    <state width="1517" height="236" key="GridCell.Tab.0.center" timestamp="1589327971603">
+    <state width="1517" height="236" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589391980933" />
+    <state width="1517" height="236" key="GridCell.Tab.0.center" timestamp="1589391980933">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589327971603" />
-    <state width="1517" height="236" key="GridCell.Tab.0.left" timestamp="1589327971603">
+    <state width="1517" height="236" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589391980933" />
+    <state width="1517" height="236" key="GridCell.Tab.0.left" timestamp="1589391980933">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589327971603" />
-    <state width="1517" height="236" key="GridCell.Tab.0.right" timestamp="1589327971604">
+    <state width="1517" height="236" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589391980933" />
+    <state width="1517" height="236" key="GridCell.Tab.0.right" timestamp="1589391980933">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state width="1517" height="236" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589327971604" />
+    <state width="1517" height="236" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589391980933" />
+    <state width="1517" height="165" key="GridCell.Tab.1.bottom" timestamp="1589391840602">
+      <screen x="1366" y="0" width="1538" height="900" />
+    </state>
+    <state width="1517" height="165" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589391840602" />
+    <state width="1517" height="165" key="GridCell.Tab.1.center" timestamp="1589391840602">
+      <screen x="1366" y="0" width="1538" height="900" />
+    </state>
+    <state width="1517" height="165" key="GridCell.Tab.1.center/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589391840602" />
+    <state width="1517" height="165" key="GridCell.Tab.1.left" timestamp="1589391840601">
+      <screen x="1366" y="0" width="1538" height="900" />
+    </state>
+    <state width="1517" height="165" key="GridCell.Tab.1.left/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589391840601" />
+    <state width="1517" height="165" key="GridCell.Tab.1.right" timestamp="1589391840602">
+      <screen x="1366" y="0" width="1538" height="900" />
+    </state>
+    <state width="1517" height="165" key="GridCell.Tab.1.right/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589391840602" />
     <state x="1909" y="170" key="RollbackChangesDialog" timestamp="1589317948133">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
@@ -551,10 +616,14 @@
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
     <state x="1636" y="95" key="SettingsEditor/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589316309472" />
-    <state x="1727" y="183" key="Vcs.Push.Dialog.v2" timestamp="1589328091132">
+    <state x="1727" y="183" key="Vcs.Push.Dialog.v2" timestamp="1589328438759">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
-    <state x="1727" y="183" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589328091132" />
+    <state x="1727" y="183" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589328438759" />
+    <state x="1944" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589328205337">
+      <screen x="1366" y="0" width="1538" height="900" />
+    </state>
+    <state x="1944" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/1366.0.1538.900@1366.0.1538.900" timestamp="1589328205337" />
     <state x="1935" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1589322426493">
       <screen x="1366" y="0" width="1538" height="900" />
     </state>
