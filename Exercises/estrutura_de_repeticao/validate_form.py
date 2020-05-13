@@ -6,6 +6,7 @@ Faça um programa que leia e valide as seguintes informações:
         Sexo: 'f' ou 'm';
         Estado Civil: 's', 'c', 'v', 'd';
 """
+
 primer = 1
 while primer == 1:
     try:
