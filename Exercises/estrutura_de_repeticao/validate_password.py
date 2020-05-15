@@ -18,8 +18,8 @@ uppercase = set(string.ascii_uppercase) #A set is created with the atribute asci
 digits = set(string.digits) #A set is created with the atribute digits of the class string
 
 def validate_password():
-    p = 1
-    while p == 1:
+x = True
+while x:
         word = input('Digite su contraseña --> ')
         msg = ''
         if not any(letra in invalidChars for letra in word): #If at least on letra of the word is in invalidChars, will into
@@ -45,6 +45,6 @@ def validate_password():
             print(msg)
         else:
             print('Your password is Ok !')
-            p = 0
+            x = False
 
 validate_password()
