@@ -1,6 +1,8 @@
 # Pythonpro
 On this repository there are files associate to the course pythonpro where I'm learning to code in Python.
 
+[![Build Status](https://travis-ci.com/Alfareiza/pythonpro.svg?branch=master)](https://travis-ci.com/Alfareiza/pythonpro)
+
 ## Folders
 All my files work with python 3.
 ### Examples
