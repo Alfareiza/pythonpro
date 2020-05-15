@@ -1,12 +1,13 @@
 """
 This program receive a letter and verify if it is consonant or vowel.
 """
-letra = input('Digite uma Letra -> ')
-
 def vocal_ou_consoante(letra):
-    if letra in set('aeiou'):
-        return 'Used digitó una vocal'
+    if letra in list('aeiou'):
+        return 'You digited a vowel'
+    elif letra in set('BÇDFGHJKLMNÑPQRSTVWXYZbcçdfhjklmnñpqrsvwxyz'):
+        return 'You digited a consonant'
     else:
-        return 'Usted digitó una consonante'
+        return 'Incorrect input'
 
+letra = input('Digite uma Letra -> ')
 print(vocal_ou_consoante(letra))
