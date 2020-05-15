@@ -17,34 +17,36 @@ lowercase = set(string.ascii_lowercase) #A set is created with the atribute asci
 uppercase = set(string.ascii_uppercase) #A set is created with the atribute ascii_uppercase of the class string
 digits = set(string.digits) #A set is created with the atribute digits of the class string
 
-def validate_password():
-x = True
-while x:
-        word = input('Digite su contraseña --> ')
-        msg = ''
-        if not any(letra in invalidChars for letra in word): #If NINGUNA letra of the word is in invalidChars, will into
-            msg += 'Password must have one special character.\n'
+def validate_password(word):
+    x = True
+    while x:
+            msg = ''
+            if not any(letra in invalidChars for letra in word): #If NINGUNA letra of the word is in invalidChars, will into
+                msg += 'Password must have one special character.\n'
 
-        if not any(letra in lowercase for letra in word): #If NINGUNA letra of the word is in lowercase, will into
-            msg += 'Password must have one lowercase character.\n'
+            if not any(letra in lowercase for letra in word): #If NINGUNA letra of the word is in lowercase, will into
+                msg += 'Password must have one lowercase character.\n'
 
-        if not any(letra in uppercase for letra in word): #If NINGUNA letra of the word is in uppercase, will into
-            msg += 'Password must have one uppercase character.\n'
+            if not any(letra in uppercase for letra in word): #If NINGUNA letra of the word is in uppercase, will into
+                msg += 'Password must have one uppercase character.\n'
 
-        if not any(letra in digits for letra in word): #If NINGUNA letra of the word is in digits, will into
-            msg += 'Password must have one number.\n'
+            if not any(letra in digits for letra in word): #If NINGUNA letra of the word is in digits, will into
+                msg += 'Password must have one number.\n'
 
-        if len(word) < 6:
-            msg += 'The Minimum length must be 6 characters.\n'
-        elif len(word) > 16:
-            msg += 'The Maximum length must be 16 characters.\n'
-        else:
-            pass
+            if len(word) < 6:
+                msg += 'The Minimum length must be 6 characters.\n'
+            elif len(word) > 16:
+                msg += 'The Maximum length must be 16 characters.\n'
+            else:
+                pass
 
-        if msg:
-            print(msg)
-        else:
-            print('Your password is Ok !')
-            x = False
+            if msg:
+                print(msg)
+                word = input('Digit your password --> ')
+            else:
+                x = False
+                return 'Your password is Ok !'
 
-validate_password()
+
+word = input('Digit your password --> ')
+print(validate_password(word))
