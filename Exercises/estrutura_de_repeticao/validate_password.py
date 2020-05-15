@@ -22,16 +22,16 @@ x = True
 while x:
         word = input('Digite su contraseña --> ')
         msg = ''
-        if not any(letra in invalidChars for letra in word): #If at least on letra of the word is in invalidChars, will into
+        if not any(letra in invalidChars for letra in word): #If NINGUNA letra of the word is in invalidChars, will into
             msg += 'Password must have one special character.\n'
 
-        if not any(letra in lowercase for letra in word): #If at least on letra of the word is in lowercase, will into
+        if not any(letra in lowercase for letra in word): #If NINGUNA letra of the word is in lowercase, will into
             msg += 'Password must have one lowercase character.\n'
 
-        if not any(letra in uppercase for letra in word): #If at least on letra of the word is in uppercase, will into
+        if not any(letra in uppercase for letra in word): #If NINGUNA letra of the word is in uppercase, will into
             msg += 'Password must have one uppercase character.\n'
 
-        if not any(letra in digits for letra in word): #If at least on letra of the word is in digits, will into
+        if not any(letra in digits for letra in word): #If NINGUNA letra of the word is in digits, will into
             msg += 'Password must have one number.\n'
 
         if len(word) < 6:
