@@ -24,6 +24,7 @@ def leer_dados():
     inserir_dados_novamente()
     pass
 
+
 def inserir_dados_novamente():
     again = input('Deseja Inserir Novos Dados S/N : ')
     if again.upper() == 'S':
@@ -36,5 +37,3 @@ def inserir_dados_novamente():
 
 
 leer_dados()
-
-
