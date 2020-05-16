@@ -66,24 +66,24 @@ data = yaml.safe_load(open("%s/data.yaml" % (current_path)))
 
 insta_username = data['username']
 insta_password = data['password']
-friendlist = data['friendlist' ]
+friendlist = data['friendlist']
 hashtags = data['hashtags']
 
 
 """
-Generating 5 comments built with random selection and amount of emojis from 
+Generating 5 comments built with random selection and amount of emojis from
 characters
 """
 comments = ['Buena Foto! @{}',
-        'I love your profile! @{}',
-        'Wow :thumbsup:',
-        'Just incredible :open_mouth:',
-        'Amazing @{}?',
-        'Love your posts @{}',
-        'Looks awesome @{}',
-        'Getting inspired by you @{}',
-        ':raised_hands: Yes!',
-        'I can feel your passion @{} :muscle:']
+            'I love your profile! @{}',
+            'Wow :thumbsup:',
+            'Just incredible :open_mouth:',
+            'Amazing @{}?',
+            'Love your posts @{}',
+            'Looks awesome @{}',
+            'Getting inspired by you @{}',
+            ':raised_hands: Yes!',
+            'I can feel your passion @{} :muscle:']
 characters = [u'😮', u'🌱', u'🍕', u'🚀', u'💬', u'💅', u'🦑', u'🌻', u'⚡️',
               u'🌈', u'🎉', u'😻']
 for comment in range(5):
@@ -195,7 +195,7 @@ with smart_run(bot):
                      interact=True)
 
     """
-    Unfollow non-followers after 3 days and all followed by InstaPy from a 
+    Unfollow non-followers after 3 days and all followed by InstaPy from a
     week ago.
     """
     if data['do_unfollow']:
