@@ -75,16 +75,16 @@ with smart_run(session):
     """ Joining Engagement Pods...
     """
     photo_comments = ['Nice shot! @{}',
-        'Awesome! @{}',
-        'Cool :thumbsup:',
-        'Just incredible :open_mouth:',
-        'What camera did you use @{}?',
-        'Love your posts @{}',
-        'Looks awesome @{}',
-        'Nice @{}',
-        ':raised_hands: Yes!',
-        'I can feel your passion @{} :muscle:']
+                      'Awesome! @{}',
+                      'Cool :thumbsup:',
+                      'Just incredible :open_mouth:',
+                      'What camera did you use @{}?',
+                      'Love your posts @{}',
+                      'Looks awesome @{}',
+                      'Nice @{}',
+                      ':raised_hands: Yes!',
+                      'I can feel your passion @{} :muscle:']
 
-    session.set_do_comment(enabled = True, percentage = 95)
-    session.set_comments(photo_comments, media = 'Photo')
+    session.set_do_comment(enabled=True, percentage=95)
+    session.set_comments(photo_comments, media='Photo')
     session.join_pods(topic='food', engagement_mode='no_comments')
