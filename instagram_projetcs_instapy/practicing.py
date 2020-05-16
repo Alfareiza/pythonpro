@@ -18,4 +18,3 @@ session.set_relationship_bounds(enabled=True,
 # session.like_by_tags(["carnavaldebarranquilla2020"], amount=3)
 
 session.follow_user_followers(['andreavaldirisos'], amount=25, randomize=False, sleep_delay=60)
-
