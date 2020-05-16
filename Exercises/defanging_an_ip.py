@@ -5,11 +5,13 @@ Example:
         Output: "1[.]1[.]1[.]1"
         """
 
+
 def defanging(ip):
     ip = ip.split('.')
     newIp = '[.]'.join(ip)
     return newIp
 
+
 address = '192.168.10.1'
-#address = input()
+# address = input()
 print(defanging(address))
