@@ -9,14 +9,17 @@ Expected Output:
 73
 """
 
+
+
 def calc_dog_age(age):
     if age <= 0:
-        return f'Age must be positivee'
+        return f'Age must be positive'
         exit()
     elif age <= 2:
         return age * 10.5
     else:
         return 21+(age-2)*4
+
 
 if __name__ == '__main__':
     age = int(input("Input a dog's age in human years : "))

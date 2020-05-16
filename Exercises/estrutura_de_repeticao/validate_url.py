@@ -38,4 +38,4 @@ while point == 1:
 
 if __name__ == '__main__':
     for key, value in result.items():
-        print(key,': ',value)
+        print(key, ': ', value)
