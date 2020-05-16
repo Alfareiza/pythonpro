@@ -1,5 +1,5 @@
 """
-Given a ip address, this program change it.
+Given a ip address,this program change it.
 Example:
         Input: address = "1.1.1.1"
         Output: "1[.]1[.]1[.]1"
