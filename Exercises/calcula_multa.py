@@ -9,13 +9,14 @@ um programa que leia a variável peso (peso de peixes) e calcule o excesso.
  multa o valor da multa que João deverá pagar. Imprima os dados do programa com
  as mensagens adequadas..
 """
-
 pesoDepeixes = int(input('Cuantos Kilos Pescaste Hoy?\n\r'))
+
+
 def calcula_multa(p):
     if p > 50:
         excesso = p - 50
         multa = excesso*4
-        print ('Deve pagar uma multa de R$',multa,'por ter',int(excesso),'Kilos de mais')
+        print('Deve pagar uma multa de R$', multa, 'por ter', int(excesso), 'Kilos de mais')
     else:
         print('Não tem multa')
 
