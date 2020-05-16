@@ -29,7 +29,7 @@ while segundo == 1:
         if 0 <= idade <= 150:
             segundo = 0
         else:
-          print('O valor digitado não é válido')
+            print('O valor digitado não é válido')
 
 tercero = 1
 while tercero == 1:
@@ -56,7 +56,7 @@ while quarto == 1:
             quarto = 0
 
 quinto = 1
-estado_civil_dict = {'S' : 'Solteira','C': 'Casada','V': 'Viuda','D':'Divorciada'}
+estado_civil_dict = {'S': 'Solteira', 'C': 'Casada', 'V': 'Viuda', 'D': 'Divorciada'}
 while quinto == 1:
     try:
         if sexo.upper() == 'M':
@@ -72,4 +72,3 @@ while quinto == 1:
             quinto = 0
         else:
             print('Estado Civil Inválido')
-
