@@ -13,21 +13,23 @@ comprada pelo usuário e gere um cupom fiscal, contendo as informações da comp
 tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e
 valor a pagar.
 """
+
+
 compra = 1
 listdeCarnes = []
 kilosdeCarnes = []
 while compra <= 2:
     carne = int(input('1 - File Duplo\n'
-            '2 - Alcatra\n'
-            '3 - Picanha\n'
-            'Digite el número de la carne que compró: '))
+                      '2 - Alcatra\n'
+                      '3 - Picanha\n'
+                      'Digite el número de la carne que compró: '))
     listdeCarnes.append(carne)
-    carnes_dict = {1: 'File Duplo', 2:'Alcatra', 3:'Picanha'}
+    carnes_dict = {1: 'File Duplo', 2: 'Alcatra', 3: 'Picanha'}
     kilos = int(input(f'Cuantos kilos de {carnes_dict[carne]} ? : '))
     kilosdeCarnes.append(kilos)
     comprouMais = input('Compro Mais Alguma Carne? S/N: ').upper()
     if comprouMais == 'S':
-        compra +=1
+        compra += 1
     else:
         break
 
@@ -47,10 +49,10 @@ def calcula_factura(listdeCarnes, kilosdeCarnes, pagamento):
             if i == j:
                 if x <= 5:
                     item = x * precos_ate_5kg[v]
-                    conta.append(round(item,2))
+                    conta.append(round(item, 2))
                 else:
                     item = x * precos_acima_5kg[v]
-                    conta.append(round(item,2))
+                    conta.append(round(item, 2))
 
     subtotal = sum(conta)
     if pagamento == 'S':
@@ -59,12 +61,12 @@ def calcula_factura(listdeCarnes, kilosdeCarnes, pagamento):
     else:
         total = subtotal
         dcto = 0
-    print(f'\n ===== CUPOM FISCAL =====\nKILOS\tCARNE\tSUBTOTAL')
+    print(f'\n===== CUPOM FISCAL =====\nKILOS\tCARNE\tSUBTOTAL')
     for i, v in enumerate(conta):
         print(kilosdeCarnes[i], '\t\t', carnes_dict[listdeCarnes[i]], '\tR$', conta[i])
     print(f'\t\tSUBTOTAL :  R$ {subtotal}')
     print(f'\t\t\tDCTO :  R$ {round(dcto, 2)}')
     print(f'  VALOR A PAGAR  :  R$ {round(total, 2)}\n\t\t GRACIAS POR SU COMPRA 👍')
 
-print(calcula_factura(listdeCarnes, kilosdeCarnes, pagamento))
 
+print(calcula_factura(listdeCarnes, kilosdeCarnes, pagamento))
