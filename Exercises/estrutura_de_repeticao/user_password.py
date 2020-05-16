@@ -7,9 +7,8 @@ usuario = input('Usuario: ')
 senha = input('Senha: ')
 point = 1
 while point == 1:
-    if senha.find(usuario) >=0:
+    if senha.find(usuario) >= 0:
         print('A senha não pode conter o nome do usuario')
         senha = input('Digite uma Senha Diferente : ')
     else:
         point = 0
-
