@@ -7,9 +7,10 @@ def changeme(mylist):
     print("Values inside the function after change: ", mylist)
     return
 
+
 # Now you can call changeme function
 mylist = [10, 20, 30]
-changeme(mylist) #Aqui llama la función y le envía -> myList
+changeme(mylist)  # Aqui llama la función y le envía -> myList
 print("Values outside the function: ", mylist)
 
-#Concusión: Cuando se le envía un valor a una función este regresa cambiado
+#  Concusión: Cuando se le envía un valor a una función este regresa cambiado
