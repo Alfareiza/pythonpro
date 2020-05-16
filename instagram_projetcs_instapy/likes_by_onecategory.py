@@ -11,7 +11,6 @@ NOTES:
 - For the ease of use most of the relevant data is retrieved in the upper part.
 """
 
-import random
 from instapy import InstaPy
 from instapy import smart_run
 
