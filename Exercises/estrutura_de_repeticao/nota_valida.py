@@ -14,6 +14,6 @@ while point == 1:
         if isinstance(nota, int) and 0 <= nota <= 10:
             point = 0
         else:
-          print('O valor digitado não é válido')
+            print('O valor digitado não é válido')
 
 print('Continue con su compra')
