@@ -8,7 +8,7 @@ session = InstaPy(username=insta_username, password=insta_password, headless_bro
 session.login()
 # set up all the settings
 session.set_relationship_bounds(enabled=True,
-                  delimit_by_numbers=True)
+                                delimit_by_numbers=True)
 session.set_do_comment(True, percentage=100)
 session.set_comments(['►', '☼', '☺'])
 
