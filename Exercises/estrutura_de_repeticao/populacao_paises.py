@@ -21,4 +21,3 @@ while point == 1:
         count += 1
 
 print(f'En {count+1} años la Populacao del Pais A será mayor que la del Pais B ')
-
