@@ -3,8 +3,9 @@ This program says "bom dia", or "boa tarde" or "boa noite" depending the hour of
 when is executed.
 """
 from datetime import datetime
-
 time = datetime.now()
+
+
 def calcula_sauacao(time):
     if 0 < time < 12:
         return f'Bom dia > {time}:'
@@ -13,4 +14,5 @@ def calcula_sauacao(time):
     else:
         return f'Boa Noite > {time}:'
 
-print(calcula_sauacao(time.hour),time.minute)
+
+print(calcula_sauacao(time.hour), time.minute)
