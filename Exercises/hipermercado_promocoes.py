@@ -61,7 +61,7 @@ def calcula_factura(listdeCarnes, kilosdeCarnes, pagamento):
     else:
         total = subtotal
         dcto = 0
-    print(f'\n===== CUPOM FISCAL =====\nKILOS\tCARNE\tSUBTOTAL')
+    print('\n===== CUPOM FISCAL =====\nKILOS\tCARNE\tSUBTOTAL')
     for i, v in enumerate(conta):
         print(kilosdeCarnes[i], '\t\t', carnes_dict[listdeCarnes[i]], '\tR$', conta[i])
     print(f'\t\tSUBTOTAL :  R$ {subtotal}')
