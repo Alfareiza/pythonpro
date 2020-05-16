@@ -12,7 +12,7 @@ def max_of_3_numbers_op1(args):
 
     return maxnumber
 
-'1'
+
 def max_of_3_numbers_op2(args):
     return max(args)
 
