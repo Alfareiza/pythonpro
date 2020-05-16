@@ -1,6 +1,8 @@
 """
 How many occurrences of string J are there in string S
 """
+
+
 def numJewelsInStones(J, S):
     """
     :type J: str
@@ -12,7 +14,7 @@ def numJewelsInStones(J, S):
         for x in S:
             if v == x:
                 count += 1
-    print(f'la letra "{J}" se encontró {count} veces' )
+    print(f'la letra "{J}" se encontró {count} veces')
     return
 
 
