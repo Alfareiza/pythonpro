@@ -58,5 +58,6 @@ def calc_year_leap(year):
     else:
         return False
 
+
 if __name__ == '__main__':
     print(calc_year_leap(2004))
