@@ -1,5 +1,6 @@
 """
-Learning to recognize the library datetime
+Exercise # 1 of https://www.w3resource.com/python-exercises/date-time-exercise/index.php
+1. Write a Python script to display the various Date Time formats.
 """
 from datetime import datetime
 import locale
