@@ -11,5 +11,5 @@ def subtract_days(date, quantity):
     return date
 
 
-date = datetime(2020, 5, 25)  # Creating date
+date = datetime.now()  # Creating date
 print(subtract_days(date, 5))
