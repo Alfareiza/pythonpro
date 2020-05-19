@@ -4,6 +4,7 @@ On this repository there are files associate to the course pythonpro where I'm l
 [![Travis CI](https://travis-ci.com/Alfareiza/pythonpro.svg?branch=master)](https://travis-ci.com/Alfareiza/pythonpro)
 [![Updates](https://pyup.io/repos/github/Alfareiza/pythonpro/shield.svg)](https://pyup.io/repos/github/Alfareiza/pythonpro/)
 [![Python 3](https://pyup.io/repos/github/Alfareiza/pythonpro/python-3-shield.svg)](https://pyup.io/repos/github/Alfareiza/pythonpro/)
+[![codecov](https://codecov.io/gh/Alfareiza/pythonpro/branch/master/graph/badge.svg)](https://codecov.io/gh/Alfareiza/pythonpro)
 
 
 ## Folders
