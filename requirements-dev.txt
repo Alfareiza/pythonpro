@@ -5,12 +5,11 @@ pyflakes==2.2.0
 #Dependencias do pytest
 py==1.8.1
 more-itertools==8.3.0
-six==1.14.0
+six==1.15.0
 attrs==19.3.0
 pluggy==0.13.1
 pytest==5.4.2
 pytest-mock==3.1.0
-
 #coverage
 coverage==5.1
 pytest-cov==2.8.1
