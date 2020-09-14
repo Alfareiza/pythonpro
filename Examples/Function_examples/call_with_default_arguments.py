@@ -1,5 +1,6 @@
 # Function definition is here
 def printinfo(name, age=35):  # En llamados por default, se hacen este tipo de atribuciones en la definición de función
+    # Primero se colocan las non-feault y luego los defult arguments
     "This prints a passed info into this function"
     print("Name: ", name)
     print("Age ", age)
