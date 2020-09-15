@@ -1,3 +1,5 @@
+
+
 #  Function definition is here known as 'Parámetros Variables en Funciones' ----------------
 def printinfo(arg1, *vartuple):
     "This prints a variable passed arguments"
@@ -23,3 +25,11 @@ def sum(self, *args):
 
 
 sum(1, 10)
+
+
+def print_three_things(a, b, c):
+    print(f'a = {a}, b = {b}, c = {c}')
+
+
+mylist = ['aardvark', 'baboon', 'cat']
+print_three_things(*mylist)
