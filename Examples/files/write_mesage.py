@@ -14,4 +14,3 @@ with open(filename, 'a') as file_object:  # Se o arquivo existisse, ele concaten
     file_object.write("I Love creating apps\n")
     # Após primera execução ele sempre vai concatenar. Caso queira limpar o arquivo antes de concatenar,
     # deverá ser criado o arquivo de novo para recever novas concatenações.
-
