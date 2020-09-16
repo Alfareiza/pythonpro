@@ -29,9 +29,9 @@ with open(file_path_numbers) as file_object:
 print(10 * "#####")
 # Armazena as linhas do arquivo numa lista dentro do with em é exibido, fora do with
 with open('text_files/numbers.txt') as file_object:
-    lines = file_object.readlines() #  Lê todo o arquivo e armazena ele numa lista
+    lines = file_object.readlines()  # Lê todo o arquivo e armazena ele numa lista
 
-print(f"Conteúdo do arquivo numbers.txt por linha fora do with:")
+print("Conteúdo do arquivo numbers.txt por linha fora do with:")
 for i, line in enumerate(lines):
     print(f"Linha{i} > {line.rstrip()}")
 
@@ -39,7 +39,7 @@ for i, line in enumerate(lines):
 print(10 * "%%%%%%")
 # Armazena as linhas do arquivo num str dentro do with e é exibido, fora do with
 with open('pi_digits.txt') as file_object:
-    lines = file_object.readlines() #  Lê todo o arquivo e armazena ele numa lista
+    lines = file_object.readlines()  # Lê todo o arquivo e armazena ele numa lista
 
 pi = ''
 for line in lines:
@@ -52,7 +52,7 @@ print(len(pi))
 print(10 * "%%%%%%")
 # Armazena as linhas do arquivo num str dentro do with e é exibido, fora do with
 with open('pi_digits.txt') as file_object:
-    lines = file_object.readlines() #  Lê todo o arquivo e armazena ele numa lista
+    lines = file_object.readlines()  # Lê todo o arquivo e armazena ele numa lista
 
 pi = ''
 for line in lines:
