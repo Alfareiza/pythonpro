@@ -101,6 +101,9 @@ class UsersToReport():
         head_content = f"ACME Inc.\t\t\t\tUso do espaço em disco pelos usuários\n" \
                        f"{30 * '--'}\n"
 
+        # Order list by value 'consume_bt' (int) of the dicts
+        users = sorted(users, key=lambda k: k['consume_bt'], reverse=True)
+
         table, row = [], []
         for i, user in enumerate(users, 1):
             row = [i, user['name'].title(), user['consume_mb'], user['percent']]
