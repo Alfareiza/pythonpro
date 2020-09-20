@@ -41,8 +41,13 @@ class UsersToReport():
         """
         Create a file giving a filename and content
         """
-        with open(f'{os.path.dirname(os.path.abspath(__file__))}/files_of_exercises/{filename}', 'w') as fp:
-            fp.write(content.strip())
+        try:
+            with open(f'{os.path.dirname(os.path.abspath(__file__))}/files_of_exercises/{filename}', 'w') as fp:
+                fp.write(content.strip())
+        except FileNotFoundError:
+            print(f'Sorry, the file {filename} doesn\'t exist')
+        except FileExistsError:
+            print(f'Sorry, there was ane error with the file {filename}')
 
     def read_file(self, filename):
         """
@@ -60,14 +65,21 @@ class UsersToReport():
         """
         Receive a str, equivalent to a line of the file.
                 Ex. : 'alexandre\t\t\t456123789\n'
+                They way to parse the line is the next:
+                > From 0 until the firtst '\t will take the name
+                > From len(line) until the first \t will take the number (including the last digit)
         return: dict with values of user
                 Ex. : {'name': 'alexandre', 'consume_bt': 456123789, 'consume_mb': '456.12 MB', }
         """
-        user_data = dict()
-        user_data['name'] = line[0:line.index('\t')]
-        user_data['consume_bt'] = int(line[line.rindex('\t') + 1:-1])
-        user_data['consume_mb'] = self.bt_to_mb(int(user_data['consume_bt']))
-        return user_data
+        try:
+            user_data = dict()
+            user_data['name'] = line[0:line.index('\t')]
+            user_data['consume_bt'] = int(line[line.rindex('\t') + 1:-1])
+            user_data['consume_mb'] = self.bt_to_mb(int(user_data['consume_bt']))
+        except Exception:
+            print('The file could not be read')
+        else:
+            return user_data
 
     def calc_percent_by_user(self, users, total):
         """
@@ -87,7 +99,7 @@ class UsersToReport():
          """
         total = 0
         for user in users:
-            temp = int(user['consume_bt'])
+            temp = user['consume_bt']
             total += temp
         return total
 
