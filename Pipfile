@@ -12,6 +12,7 @@ pytest-mock = "*"
 
 [packages]
 requests = "*"
+tabulate = "*"
 
 [requires]
 python_version = "3.8"
