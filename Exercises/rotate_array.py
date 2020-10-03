@@ -17,8 +17,6 @@ to [5,6,7,1,2,3,4]. How many different ways do you know to solve this problem?
     o
     n
     s
-    >>> print(rotate_lst_v2(list('tom jobim'), 1))
-    ['m', 't', 'o', 'm', '', 'j', 'o', 'b', 'i']
 """
 from itertools import chain
 from time import time
