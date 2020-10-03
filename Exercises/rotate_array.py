@@ -31,19 +31,21 @@ def rotate_lst(iteravel, k: int):
         lenght -= 1
     return novo_iteravel
 
+
 def rotate_lst_2(iteravel, k: int):
-    primera_parte = iteravel[-k:] # O(n) em tempo e em espaço
+    primera_parte = iteravel[-k:]  # O(n) em tempo e em espaço
     segunda_parte = iteravel[:-k]
     return primera_parte + segunda_parte
 
 
 def rotate_generator(iteravel, k: int):
     n = len(iteravel)
-    primera_parte = range(n - k, n) # São criados os slices como um objeto range
+    primera_parte = range(n - k, n)  # São criados os slices como um objeto range
     segunda_parte = range(n - k)
     indices_rotacionados = chain(primera_parte, segunda_parte)
     for indice_rotacionado in indices_rotacionados:
         yield iteravel[indice_rotacionado]
+
 
 if __name__ == '__main__':
     inicio = time()
