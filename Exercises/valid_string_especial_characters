@@ -1,0 +1,37 @@
+
+def is_valid(s: str) -> bool:
+    """
+    Given a string s containing just the characters:
+    '(', ')', '[', ']', '{' and '}'.
+    Determine if the input string is valid
+    :param s: string. Ex.: '()' or '(])'
+    :return: True or False
+    >>> is_valid('()')
+    True
+    >>> is_valid('()[]{}')
+    True
+    >>> is_valid('(]')
+    False
+    >>> is_valid('([)]')
+    False
+    >>> is_valid('{[]}')
+    True
+    """
+    if len(s) % 2 == 1:
+        return False
+    else:
+        is_ok = False
+        try:
+            for i, letter in enumerate(s, 1):
+                if letter == '(' and len(s[i:s.index(')')]) % 2 == 0:
+                    is_ok = True
+                elif letter == '[' and len(s[i:s.index(']')]) % 2 == 0:
+                    is_ok = True
+                elif letter == '{' and len(s[i:s.index('}')]) % 2 == 0:
+                    is_ok = True
+                else:
+                    continue
+        except:
+            is_ok = False
+    return is_ok
+    
