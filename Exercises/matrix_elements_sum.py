@@ -57,3 +57,23 @@ def matrix_elements_sum(matrix: list[list[int]]) -> int:
             else:
                 result += value
     return result
+  
+  
+# Another way of solution
+def matrix_elements_sum_(matrix):
+    # Ex.: Matrix:
+    #              [[0, 1, 1, 2],
+    #               [0, 5, 0, 0],
+    #               [2, 0, 3, 3]]
+    # 
+    m = list(zip(*matrix))
+    # Ex.: m:
+    #              [[0, 0, 2], [1, 5, 2], [1, 0, 3], [2, 0, 3]]
+    sum = 0
+    for l in m:
+        for n in l:
+            if n == 0:
+                break
+            else:
+                sum += n         
+    return sum
