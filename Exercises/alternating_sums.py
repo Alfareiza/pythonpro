@@ -1,4 +1,4 @@
-def alternating_sums(a: list) -> list
+def alternating_sums(a: list) -> list:
   """
   Several people are standing in a row and need to 
   be divided into two teams. The first person goes
@@ -18,16 +18,16 @@ def alternating_sums(a: list) -> list
     
   >>> alternating_sums([50, 60, 60, 45, 70])
   [180, 105]
-"""
-    is_odd = lambda x: bool(x % 2)
-    group_one, group_two = 0, 0
-    for i in range(1, len(a)):
-        if is_odd(i):
-            group_one += a[i]
-        else:
-            group_two += a[i]
-    group_two += a[0]
-    return [group_two, group_one]
+  """
+  is_odd = lambda x: bool(x % 2)
+  group_one, group_two = 0, 0
+  for i in range(1, len(a)):
+      if is_odd(i):
+          group_one += a[i]
+      else:
+          group_two += a[i]
+  group_two += a[0]
+  return [group_two, group_one]
     
 # Alternative Solution 1
 def solution(a):
